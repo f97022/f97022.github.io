@@ -1,0 +1,107 @@
+main{
+  padding: 50px 100px 50px 100px;
+  /* background-color:#ddebf6; */
+}
+
+section{
+  margin-bottom: 20px;
+}
+
+.pic{
+  height: 400px;
+  /* outline: solid 3px red; */
+  /* margin: 2px; */
+  background-color:#336699;
+}
+.nav{
+/* outline: solid 3px blue; */
+padding: 10px 0px 0px 10px;
+background-color: #86BBD8;
+}
+
+.container{
+  max-width:unset;
+  outline: solid 3px green;
+}
+
+.personal-info{
+  margin-bottom: 30px;
+  display: flex;
+  /* 水平置中 */
+  justify-content: center;
+  /* 垂直置中 */
+  align-items: center; 
+  outline: solid 3px orange;
+}
+
+.avatar{
+  max-width: 250px;
+  border-radius: 5%;  /* 圓框效果 */
+  margin: 25px;
+}
+
+.social-media{
+  margin-bottom: 10px;
+}
+
+.description{
+  max-width: 750px;
+  margin: 0px;
+}
+
+
+.skills {
+  /* outline: 3px solid tomato;  */
+  /* 暫時觀察用 */
+  display: flex;  /* 讓容器成為 flex 排列系統 */
+  justify-content: space-between;  /* 水平分散 */
+}
+.skill {
+  /* outline: 2px solid steelblue;  */
+  /* 暫時觀察用 */
+  width: 30%;  /* 每組文字佔用容器寬度 30% */
+}
+
+.skill-name {
+  border-bottom: 2px solid #999999;  /* 為質感加一個上框線 */
+  padding-top: 7px;              /* 上框線與文字之間留白 */
+}
+
+.name{
+  margin-bottom: 10px;
+  font-size: 38px;
+}
+
+.certificates{
+  /* outline: 3px solid tomato;  */
+  /* 暫時觀察用 */
+  display: flex;  /* 讓容器成為 flex 排列系統 */
+  justify-content: space-between;  /* 水平分散 */
+}
+
+.certificate {
+  /* outline: 2px solid steelblue;  */
+  /* 暫時觀察用 */
+  width: 30%;  /* 每組文字佔用容器寬度 30% */
+}
+
+.certificate-name{
+  border-bottom: 2px solid #999999;  /* 為質感加一個上框線 */
+  padding-top: 7px;              /* 上框線與文字之間留白 */
+}
+
+li{
+  font-weight: bold;
+  color: #3e3e3e;
+}
+
+h2{
+  font-size: 32px;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+h3{
+  font-size: 20px;
+  font-weight: bold;
+}
