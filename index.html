@@ -2,6 +2,7 @@
 <html lang="zh-TW">
   <head>
     <meta charset="UTF-8" />
+    <!-- CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -13,26 +14,33 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     />
     <link href="index.css" rel="stylesheet" />
+    <!-- 字型 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
     <title>Hello</title>
   </head>
   <body>
     <div class="pic">
-      <img src="" class="img-fluid" />
-      <div class="">
-        <p>test123</p>
+      <div class="greeting">
+        <p></p>
       </div>
     </div>
 
     <!-- 導覽頁籤 -->
     <header>
-      <ul class="nav nav-tabs me-auto mb-2 mb-lg-0">
+      <ul class="nav nav-tabs me-auto mb-2 mb-lg-0" id="tab">
+        <div class="nav-title"><h4>林孟穎</h4></div>
         <li class="nav-item">
           <button class="nav-link active self-info" href="#">
-            <b>自我介紹</b>
+            自我介紹
           </button>
         </li>
         <li class="nav-item">
-          <button class="nav-link project" href="#"><b>專案與練習作品</b></button>
+          <button class="nav-link project" href="#">
+            專案與練習作品
+          </button>
         </li>
       </ul>
     </header>
@@ -41,90 +49,6 @@
     <main>
       <div class="container" id="content">
         <!-- javaScript 帶入資料 -->
-        <section class="personal-info">
-          <img src="10943040.jpg" class="avatar" />
-          <div class="introduction">
-            <h1 class="name">林孟穎 Lin,Meng-Ying</h1>
-            <p class="social-media">
-              <i class="fa-solid fa-envelope fa-lg"></i> <b>f97022@gmail.com</b>
-              <i class="fa-solid fa-phone"></i> <b>0966628263</b>
-              <i class="fa-brands fa-line fa-lg"></i> <b>f1693108</b>
-            </p>
-            <p class="description">
-              我是林孟穎，113年應屆畢業生，目前就讀慈濟科技大學
-              資訊科技與管理系，興趣是學習程式語言、追蹤電腦硬體設備的各種資訊、組鋼彈模型、玩遊戲、看動漫。<br />
-              目前正在上ALPHA
-              Camp的全端網頁開發課程，目前進度在前端開發實作，網頁開發入門在2月初修課完成。
-            </p>
-          </div>
-        </section>
-        <section class="skill-section">
-          <h2>專長與技能</h2>
-          <div class="skills">
-            <div class="skill">
-              <h3 class="skill-name">程式語言</h3>
-              <ul class="skill-description">
-                <li>HTML <i class="fa-brands fa-html5 fa-lg"></i></i> / CSS <i class="fa-brands fa-css3-alt fa-lg"></i></li>
-                <li>JavaScript <i class="fa-brands fa-js fa-lg"></i></li>
-                <li>PHP <i class="fa-brands fa-php fa-lg"></i></li>
-                <li>Python <i class="fa-brands fa-python fa-lg"></i></li>
-                <li>C# </li>
-              </ul>
-            </div>
-            <div class="skill">
-              <h3 class="skill-name">資料庫</h3>
-              <ul class="skill-description">
-                <li>MySQL</li>
-              </ul>
-            </div>
-            <div class="skill">
-              <h3 class="skill-name">其他</h3>
-              <ul class="skill-description">
-                <li>Word , Excel , PowerPoint</li>
-                <li>Photoshop , Illustrator</li>
-                <li>Dreamweaver</li>
-              </ul>
-            </div>
-          </div>
-          <p class="skill-description">
-            我能依照設計圖使用HTML/CSS做出靜態網頁，使用PHP與MySQL做到用網頁對資料庫CRUD，熟悉Python和C#的基礎語法，能看懂程式碼，也能理解大致運作過程。<br />
-            熟悉Office和Adobe系列軟體，能做基本的文書、影像處理。
-          </p>
-        </section>
-        <section class="certificate-section">
-          <h2>證照</h2>
-          <div class="certificates">
-            <div class="certificate">
-              <h3 class="certificate-name">勞動部</h3>
-              <ul class="certificate-description">
-                <li>電腦軟體應用 乙級<br>(證號：118-163655)</li>
-                <li>電腦軟體應用 丙級<br>(證號：118-840056)</li>
-                <li>網頁設計 丙級<br>(證號：173-224104)</li>
-              </ul>
-            </div>
-            <div class="certificate">
-              <h3 class="certificate-name">TQC企業人才技能認證</h3>
-              <ul class="certificate-description">
-                <li>電子商務概論 專業級</li>
-                <li>Word 2016 進階級</li>
-                <li>Excel 2016 進階級</li>
-                <li>PowerPoint  2016 進階級</li>
-              </ul>
-            </div>
-            <div class="certificate">
-              <h3 class="certificate-name">Adobe＆Certiport</h3>
-              <ul class="certificate-description">
-                <li>Visual Design using Adobe Photoshop CC 2015</li>
-                <li>Graphic Design & Illustration using Adobe Illustrator CC 2015</li>
-                <li>Web Authoring using Adobe Dreamweaver CC 2015</li>
-              </ul>
-            </div>
-          </div>
-        </section>
-        <section class="experience">
-          <i class="fa-solid fa-building"></i>
-          <i class="fa-solid fa-calendar-days"></i>
-        </section>
       </div>
     </main>
     <!-- js檔案引入 -->

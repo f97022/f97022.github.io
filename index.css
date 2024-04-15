@@ -1,37 +1,72 @@
+body{
+  font-family: "Noto Sans","Noto Sans TC", sans-serif;
+}
+
 main{
-  padding: 50px 100px 50px 100px;
-  /* background-color:#ddebf6; */
+  padding: 50px 250px 50px 250px;
+  /* 上 右 下 左*/
+  background-color:#ddebf6;
 }
 
 section{
   margin-bottom: 20px;
 }
 
-.pic{
-  height: 400px;
-  /* outline: solid 3px red; */
-  /* margin: 2px; */
-  background-color:#336699;
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
+
+
+.pic{
+  height: 500px;
+  /* outline: solid 3px red; */
+  background-image: url(P_20230929_180700.jpg);
+  background-repeat: no-repeat;
+  background-position:  30% 43%;
+  background-color:#336699;
+  position: relative;
+}
+
+.greeting{
+  position: absolute;
+  top: 210px;
+  right: 725px;
+}
+
 .nav{
 /* outline: solid 3px blue; */
 padding: 10px 0px 0px 10px;
 background-color: #86BBD8;
+width:100%;
+overflow: hidden;
+}
+
+.nav-title {
+  font-weight: bold;   /* 粗體 */
+  position: relative;
+  top: 4px;
+  margin: 0px 25px 0px 5px;
+}
+
+.nav-link {
+  font-weight: bold;
 }
 
 .container{
   max-width:unset;
-  outline: solid 3px green;
+  /* outline: solid 3px green; */
 }
 
 .personal-info{
   margin-bottom: 30px;
   display: flex;
   /* 水平置中 */
-  justify-content: center;
+  justify-content: space-evenly;
   /* 垂直置中 */
   align-items: center; 
-  outline: solid 3px orange;
+  /* outline: solid 3px orange; */
 }
 
 .avatar{
@@ -70,6 +105,7 @@ background-color: #86BBD8;
 .name{
   margin-bottom: 10px;
   font-size: 38px;
+  font-weight: 500;
 }
 
 .certificates{
@@ -90,18 +126,38 @@ background-color: #86BBD8;
   padding-top: 7px;              /* 上框線與文字之間留白 */
 }
 
+.experience-name{
+  padding-top: 7px;
+}
+
+hr{
+  border: 1px solid;
+  background: #999999;
+  margin: 20px 0;
+}
+
 li{
-  font-weight: bold;
+  font-weight: 500;
   color: #3e3e3e;
 }
 
 h2{
   font-size: 32px;
   margin-bottom: 8px;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 h3{
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 500;
+}
+
+span{
+  font-size: 18px;
+  font-weight: 500;
+  color: #565656;
+}
+
+p{
+  font-weight: 500;
 }
