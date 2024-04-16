@@ -29,10 +29,21 @@ section{
   position: relative;
 }
 
+.pic-text{
+  font-size: 20px;
+  text-align: center;
+  padding-top: 10px;
+}
+
 .greeting{
   position: absolute;
   top: 210px;
   right: 725px;
+}
+
+.greeting-text{
+  color: white;
+  font-size: 30px;
 }
 
 .nav{
@@ -130,6 +141,10 @@ overflow: hidden;
   padding-top: 7px;
 }
 
+.work-name{
+  padding-top: 7px;
+}
+
 hr{
   border: 1px solid;
   background: #999999;
@@ -160,4 +175,10 @@ span{
 
 p{
   font-weight: 500;
+}
+
+.awards{
+  font-size: 20px;
+  font-weight: 700;
+  color:red
 }

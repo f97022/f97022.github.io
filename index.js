@@ -127,7 +127,52 @@ function displaySelfInfo() {
 }
 
 function displayProject() {
-  let htmltext = ``
+  let htmltext = `<section class="project">
+          <h2>專案</h2>
+          <h3 class="project-name">
+            遊戲化創新教學管理系統 - 2023太平洋盃科技教育競賽 軟體創客組
+            <span class="awards">佳作</span>
+          </h3>
+          <br />
+          <p class="project-introduce">
+            在製作專題時，擔任組長規劃系統功能和分配組員工作，也作為後端負責資料庫與網頁的連接及CRUD。
+          </p>
+          <img src="登入頁面.PNG" width="100%" />
+          <p class="pic-text">系統登入頁面</p>
+          <img src="老師頁面-管理題庫.png" width="100%" />
+          <p class="pic-text">老師頁面 - 題庫管理系統</p>
+        </section>
+        <section class="practice-works">
+          <h2>ALPHA Camp 練習作品</h2>
+          <h3 class="work-name">【C2-M4 指標作業】你的社群名單：手刻功能</h3>
+          <p class="work-introduce">學習到 操作DOM元素(更改顯示內容、增加移除Css樣式、建立監聽器來處理事件) 和 Api串接與資料處理 及 對瀏覽器的local storage存取、取出、移除。</p>
+          <iframe
+            height="600"
+            style="width: 100%"
+            scrolling="yes"
+            title="my-community-list"
+            src="my-community-list\\index.html"
+          ></iframe>
+          <hr />
+          <h3 class="work-name">【C2-M5】翻牌遊戲:微型專案設計</h3>
+          <p class="work-introduce">理解 程式碼模組化的概念 和 MVC架構與概念。</p>
+          <iframe
+            height="600"
+            style="width: 100%"
+            scrolling="no"
+            title="play-card"
+            src="https://codepen.io/f97022/embed/XWQaKdQ?default-tab=result"
+            frameborder="no"
+            loading="lazy"
+            allowtransparency="true"
+            allowfullscreen="true"
+          >
+            See the Pen
+            <a href="https://codepen.io/f97022/pen/XWQaKdQ"> play-card</a> by
+            林孟穎 (<a href="https://codepen.io/f97022">@f97022</a>) on
+            <a href="https://codepen.io">CodePen</a>.</iframe
+          >
+        </section>`
 
   content.innerHTML = htmltext
 }
