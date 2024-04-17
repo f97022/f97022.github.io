@@ -37,13 +37,14 @@ section{
 
 .greeting{
   position: absolute;
-  top: 210px;
-  right: 725px;
+  top: 160px;
+  right: 405px;
 }
 
 .greeting-text{
   color: white;
-  font-size: 30px;
+  font-size: 22px;
+  line-height: 50px;
 }
 
 .nav{
