@@ -1,0 +1,213 @@
+body{
+  font-family: "Noto Sans","Noto Sans TC", sans-serif;
+}
+
+main{
+  padding: 50px 250px 50px 250px;
+  /* 上 右 下 左*/
+  background-color:#ddebf6;
+}
+
+section{
+  margin-bottom: 20px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+.pic{
+  height: 500px;
+  /* outline: solid 3px red; */
+  background-image: url(Banner_03.png);
+  background-repeat: no-repeat;
+  background-position:  50% 50%;
+  background-color:#336699;
+  position: relative;
+}
+
+.pic-text{
+  font-size: 20px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.nav{
+/* outline: solid 3px blue; */
+padding: 10px 0px 10px 10px;
+background-color: #86BBD8;
+width:100%;
+overflow: hidden;
+}
+
+.nav-title {
+  font-weight: bold;   /* 粗體 */
+  position: relative;
+  top: 4px;
+  margin: 0px 25px 0px 5px;
+}
+
+.nav-link {
+  font-weight: bold;
+}
+
+.Switch-self {
+position: absolute;
+right: 0px;
+margin-right: 20px;
+margin-top: 9px;
+}
+
+
+.container{
+  max-width:unset;
+  /* outline: solid 3px green; */
+}
+
+.personal-info{
+  margin-bottom: 30px;
+  display: flex;
+  /* 水平置中 */
+  justify-content: space-evenly;
+  /* 垂直置中 */
+  align-items: center; 
+  /* outline: solid 3px orange; */
+}
+
+.avatar{
+  max-width: 250px;
+  border-radius: 5%;  /* 圓框效果 */
+  margin: 25px;
+}
+
+.social-media{
+  margin-bottom: 10px;
+}
+
+.description{
+  max-width: 750px;
+  margin: 0px;
+}
+
+.fa-brands{
+  color: black;
+}
+.game-pic{
+  margin: 15px 0px 15px 0px;
+}
+
+.g-pic{
+  max-width: 1000px;
+  margin: 10px 0px 10px 0px;
+}
+.m-r-pic{
+  max-width: 750px;
+  margin: 10px 0px 10px 0px;
+}
+.m-c-pic{
+  max-width: 1000px;
+  margin: 10px 0px 10px 0px;
+}
+
+.date-pic{
+  margin: 15px 0px 15px 0px;
+}
+
+.d-r-pic{
+  max-width: 750px;
+  margin: 10px 0px 10px 0px;
+}
+.d-c-pic{
+  max-width: 1000px;
+  margin: 10px 0px 10px 0px;
+}
+
+.skills {
+  /* outline: 3px solid tomato;  */
+  /* 暫時觀察用 */
+  display: flex;  /* 讓容器成為 flex 排列系統 */
+  justify-content: space-between;  /* 水平分散 */
+}
+.skill {
+  /* outline: 2px solid steelblue;  */
+  /* 暫時觀察用 */
+  width: 30%;  /* 每組文字佔用容器寬度 30% */
+}
+
+.skill-name {
+  border-bottom: 2px solid #999999;  /* 為質感加一個上框線 */
+  padding-top: 7px;              /* 上框線與文字之間留白 */
+}
+
+.name{
+  margin-bottom: 10px;
+  font-size: 38px;
+  font-weight: 500;
+}
+
+.certificates{
+  /* outline: 3px solid tomato;  */
+  /* 暫時觀察用 */
+  display: flex;  /* 讓容器成為 flex 排列系統 */
+  justify-content: space-between;  /* 水平分散 */
+}
+
+.certificate {
+  /* outline: 2px solid steelblue;  */
+  /* 暫時觀察用 */
+  width: 30%;  /* 每組文字佔用容器寬度 30% */
+}
+
+.certificate-name{
+  border-bottom: 2px solid #999999;  /* 為質感加一個上框線 */
+  padding-top: 7px;              /* 上框線與文字之間留白 */
+}
+
+.experience-name{
+  padding-top: 7px;
+}
+
+.work-name{
+  padding-top: 7px;
+}
+
+hr{
+  border: 1px solid;
+  background: #999999;
+  margin: 20px 0;
+}
+
+li{
+  font-weight: 500;
+  color: #3e3e3e;
+}
+
+h2{
+  font-size: 32px;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+h3{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+span{
+  font-size: 18px;
+  font-weight: 500;
+  color: #565656;
+}
+
+p{
+  font-weight: 500;
+}
+
+.awards{
+  font-size: 20px;
+  font-weight: 700;
+  color:red
+}

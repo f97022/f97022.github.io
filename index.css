@@ -66,6 +66,13 @@ overflow: hidden;
   font-weight: bold;
 }
 
+.Switch-self {
+position: absolute;
+right: 0px;
+margin-right: 20px;
+margin-top: 4px;
+}
+
 .container{
   max-width:unset;
   /* outline: solid 3px green; */
