@@ -75,7 +75,7 @@ function displaySelfInfo() {
             </div>
           </div>
           <p class="skill-description">
-            我能依照設計圖使用HTML/CSS做出靜態網頁，使用PHP與MySQL做到用網頁對資料庫CRUD，熟悉Python和C#的基礎語法，能看懂程式碼，也能理解大致運作過程。<br />
+            我能依照設計圖使用HTML/CSS做出靜態網頁，可使用JS做出動態網頁和串接API資料處理，使用純PHP做到使用網頁呈現對MySQL資料庫的CRUD，熟悉 Python和C#的基礎語法，能看懂程式碼，也能理解大致運作過程。<br />
             熟悉Office和Adobe系列軟體，能做基本的文書、影像處理。
           </p>
         </section>
