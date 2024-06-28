@@ -41,17 +41,17 @@ function displaySelfInfo() {
             <div class="skill">
               <h3 class="skill-name">程式語言</h3>
               <ul class="skill-description">
-                <li>HTML <i class="fa-brands fa-html5 fa-lg"></i></i> / CSS <i class="fa-brands fa-css3-alt fa-lg"></i></li>
-                <li>JavaScript <i class="fa-brands fa-js fa-lg"></i></li>
-                <li>PHP <i class="fa-brands fa-php fa-lg"></i></li>
-                <li>Python <i class="fa-brands fa-python fa-lg"></i></li>
-                <li>C# </li>
+                <li>HTML <i class="fa-brands fa-html5 fa-lg"></i></i> / CSS <i class="fa-brands fa-css3-alt fa-lg"></i> <p>能依照設計圖做出靜態網頁，也懂得使用Bootstrap來美化網頁。</p></li>
+                <li>JavaScript <i class="fa-brands fa-js fa-lg"></i> <p>可使用JS做出動態網頁、串接API資料處理。</p></li>
+                <li>PHP <i class="fa-brands fa-php fa-lg"></i> <p>使用純PHP做到使用網頁呈現對MySQL資料庫的CRUD。</p></li>
+                <li>Python <i class="fa-brands fa-python fa-lg"></i><p>熟悉 Python的基礎語法，知道如何安裝套件、網路爬蟲網頁。</p></li>
+                <li>Java <i class="fa-brands fa-java fa-lg"></i> <p>熟悉 Java的基礎語法，知道如何使用Spring Boot框架，但尚未熟練寫出 Restful API、JPA等應用。</p></li>
               </ul>
             </div>
             <div class="skill">
               <h3 class="skill-name">資料庫</h3>
               <ul class="skill-description">
-                <li>MySQL</li>
+                <li>MySQL <p>熟悉基本的SQL語法(CRUD、條件查詢等)。</p></li>
               </ul>
             </div>
             <div class="skill">
@@ -60,13 +60,10 @@ function displaySelfInfo() {
                 <li>Word , Excel , PowerPoint</li>
                 <li>Photoshop , Illustrator</li>
                 <li>Dreamweaver</li>
+                <p>熟悉 Office和Adobe系列影像處理軟體，也有相關證照，能做基本的文書、影像處理。</p>
               </ul>
             </div>
           </div>
-          <p class="skill-description">
-            我能依照設計圖使用HTML/CSS做出靜態網頁，可使用JS做出動態網頁和串接API資料處理，使用純PHP做到使用網頁呈現對MySQL資料庫的CRUD，熟悉 Python和C#的基礎語法，能看懂程式碼，也能理解大致運作過程。<br />
-            熟悉Office和Adobe系列軟體，能做基本的文書、影像處理。
-          </p>
         </section>
         <section class="certificate-section">
           <h2>證照</h2>
@@ -109,6 +106,10 @@ function displaySelfInfo() {
           <p>在實習過程中學到SQL更多應用方式、用PowerBI連結資料庫把資料視覺化、git基本操作和應用概念等，自己的表達能力和協作能力也提升不少，學習到如何應對職場問題更是寶貴的經驗。</p>
           <p>透過這次實習讓我確定方向，要以全端工程師為目標繼續努力學習相關技能。</p>
           <span><i class="fa-solid fa-calendar-days"></i> 2023/06/26 - 2023/08/04</span>
+          <hr>
+          <h3 class="experience-name">工讀生 <span><i class="fa-solid fa-building"></i> 花蓮慈濟醫院 - 長期照護部</span></h3><br>
+          <p>在大四下的5週時間，有幸在花蓮慈濟醫院-長照部擔任工讀生，學習Java和Spring Boot，學到使用API呼叫JPA從MySQL取資料，因畢業相關事項忙碌及未能達到考核要求而離職。</p>
+          <span><i class="fa-solid fa-calendar-days"></i> 2024/04/15 - 2024/05/21</span>
         </section>`
 
   content.innerHTML = htmltext
