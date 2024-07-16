@@ -124,8 +124,13 @@ function displayProject() {
           </h3>
           <br />
           <p class="project-introduce">
-            在製作專題時，擔任組長規劃系統功能和分配組員工作，也作為後端負責資料庫與網頁的連接及CRUD。
+            在製作專題時，擔任組長規劃系統功能和分配組員工作。<br />
+            在組內主要負責資料庫CRUD和撰寫網頁功能(登入、新增題庫等)，其他組員負責網頁的美化及功能抓錯。<br />
+            (遊戲來源及遊戲分數的寫入是指導老師提供)<br />
+            使用的語言和資料庫是PHP、HTML、CSS、MySQL。
           </p>
+          <a href="https://drive.google.com/file/d/1igTI8Y4AdbGJUeULk8Fn8wXr2hZfnRbq/view" target="_blank" >海報</a>
+          <a href="https://drive.google.com/file/d/1QdO509BW8zcwpBfmNXNOU_uUBcfUIgXD/view" target="_blank" >簡報</a>
           <img src="登入頁面.PNG" width="100%" />
           <p class="pic-text">系統登入頁面</p>
           <img src="老師頁面-管理題庫.png" width="100%" />
